@@ -1,12 +1,31 @@
-import os
+#including the library
 import re
 
+#initializing the function
 def FILTER(INST):
- PIECES = re.split('[)]|[(]|[ ]|,|;|[.]Y20|[.]Y19|[.]Y18|[.]Y17|[.]Y16|[.]Y15|[.]Y14|[.]Y13|[.]Y12|[.]Y11|[.]Y10|[.]Y9|[.]Y8|[.]Y7|[.]Y6|[.]Y5|[.]Y4|[.]Y3|[.]Y2|[.]Y1|[.].', INST_CURR)
- return list(filter(None, PIECES))  
- 
- 
- 
- example = FILTER  ("NAND2X1 uut192 (.Y1(N520),.A(N495fo0),.B(N207fo0));")
- 
- print(example)
+	PIECES = re.split('[)]|[(]|[ ]|,|;|[.]Y\d{2}|[.]Y\d{1}.|[\n]|[.]Y|[.]A|[.]B', INST)
+    return list(filter(None, PIECES))
+
+#to open the file to parse	
+my_file = open (''C:/Users/uttej/Desktop/My Docs/Vesting Testing/Hw2/Hw2/Benchmark/c17.v', 'r')
+inputArr = []
+outputArr = []
+my_file_lines = my_file.readlines();
+
+#to perform the parsing on the entire the loop
+for line in my_file_lines:
+    split_arr = FILTER(line)
+    print(split_arr)
+
+#to remove unnecessary lines	
+if 'module' not in identifier:
+	print(split_arr)
+	if identifier == 'input':
+		inputArr = split_arr[1:]
+	elif identifier == 'output':
+		outputArr = split_arr[1:]
+
+
+#to print the parsed output
+print(inputArr)
+print(outputArr)		
