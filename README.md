@@ -1,2 +1,2 @@
 # FaultCollapsing-
-This code lets one perform fauly collapsing for a given circuit
+This code lets one perform fault collapsing for a given circuit
