@@ -1,0 +1,16 @@
+Sa1   N1
+Sa0   N1
+Sa1   N2
+Sa0   N2
+Sa1   N6
+Sa0   N6
+Sa1   N5
+Sa0   N5
+Sa1   the
+Sa0   the
+Sa1   module
+Sa0   module
+Sa1   N4
+Sa0   N4
+Sa1   N4
+Sa0   N4

@@ -1,0 +1,26 @@
+0  ->  Sa1    N3fo1
+1  ->  Sa1    N6
+2  ->  Sa1    N2
+3  ->  Sa1    N11fo0
+4  ->  Sa1    N11fo1
+5  ->  Sa1    N7
+6  ->  Sa1    N10
+7  ->  Sa1    N16fo0
+8  ->  Sa0    N22
+9  ->  Sa1    N22
+10  ->  Sa1    N16fo1
+11  ->  Sa1    N19
+12  ->  Sa0    N23
+13  ->  Sa1    N23
+14  ->  Sa1    N1
+15  ->  Sa1    N3fo0
+16  ->  N3    Sa0
+17  ->  N3    Sa1
+18  ->  N16    Sa0
+19  ->  N16    Sa1
+20  ->  N11    Sa0
+21  ->  N11    Sa1
+
+Total Faults_AF = 22
+
+the collapse ratio is = 22/34 = 0.647059
